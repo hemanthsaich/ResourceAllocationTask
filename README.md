@@ -105,7 +105,6 @@ mvn spring-boot:run
 ```
 - **Response**: Array of matching resources
 
-![image](https://res.cloudinary.com/daafpg7r5/image/upload/v1734840349/search_by_skils.png)
 
 ### 2. Search Resources by Skills and Experience
 - **URL**: `/api/resources/search/experience`
@@ -117,8 +116,6 @@ mvn spring-boot:run
 
 ```
 - **Response**: Array of matching resources with experience filter
-
-![image](https://res.cloudinary.com/daafpg7r5/image/upload/v1734840349/search_by_skills_and_experience.png)
 
 
 
@@ -133,7 +130,6 @@ mvn spring-boot:run
     "skills": ["Java", "Spring", "React", "Docker"]
 }
 ```
-![image](https://res.cloudinary.com/daafpg7r5/image/upload/v1734840350/Create_New_Resource.png)
 
 - **Response**: Created resource details
 
@@ -145,12 +141,16 @@ mvn spring-boot:run
    POST http://localhost:8080/api/resources/search
    Body: ["Java", "Redis", "Javascript"]
    ```
+![image](https://res.cloudinary.com/daafpg7r5/image/upload/v1734840349/search_by_skils.png)
 
 3. Test search by skills and experience:
    ```bash
    POST http://localhost:8080/api/resources/search/experience?maxExperience=10
    Body: ["Mysql", "Docker", "Spring", "React"]
    ```
+
+![image](https://res.cloudinary.com/daafpg7r5/image/upload/v1734840349/search_by_skills_and_experience.png)
+
 
 4. Test creating new resource:
    ```bash
@@ -161,6 +161,9 @@ mvn spring-boot:run
        "skills": ["Java", "Spring", "React", "Docker"]
    }
    ```
+
+![image](https://res.cloudinary.com/daafpg7r5/image/upload/v1734840350/Create_New_Resource.png)
+
 
 
 ## Running Tests
