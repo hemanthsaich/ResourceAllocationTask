@@ -20,13 +20,6 @@ A Spring Boot application for managing resource allocation based on skillsets an
 - JUnit 5
 - Spring Data JPA
 
-## Prerequisites
-
-- JDK 17 or higher
-- MySQL 8.0
-- Maven 3.6 or higher
-- Postman (for testing)
-
 ## Database Setup
 
 1. Login to MySQL:
@@ -100,6 +93,9 @@ mvn spring-boot:run
 
 ## API Endpoints
 
+
+
+
 ### 1. Search Resources by Skills
 - **URL**: `/api/resources/search`
 - **Method**: POST
@@ -109,6 +105,9 @@ mvn spring-boot:run
 ```
 - **Response**: Array of matching resources
 
+https://res.cloudinary.com/daafpg7r5/image/upload/v1734840349/search_by_skils.png
+
+
 ### 2. Search Resources by Skills and Experience
 - **URL**: `/api/resources/search/experience`
 - **Method**: POST
@@ -116,8 +115,12 @@ mvn spring-boot:run
 - **Request Body**: Array of skills
 ```json
 ["Mysql", "Docker", "Spring", "React"]
+
 ```
 - **Response**: Array of matching resources with experience filter
+
+https://res.cloudinary.com/daafpg7r5/image/upload/v1734840349/search_by_skills_and_experience.png
+
 
 ### 3. Create New Resource
 - **URL**: `/api/resources`
@@ -130,6 +133,8 @@ mvn spring-boot:run
     "skills": ["Java", "Spring", "React", "Docker"]
 }
 ```
+
+
 - **Response**: Created resource details
 
 ## Testing with Postman
@@ -151,11 +156,13 @@ mvn spring-boot:run
    ```bash
    POST http://localhost:8080/api/resources
    Body: {
-       "resourceName": "John",
+       "resourceName": "Hemanth",
        "experience": 5,
        "skills": ["Java", "Spring", "React", "Docker"]
    }
    ```
+https://res.cloudinary.com/daafpg7r5/image/upload/v1734840350/Create_New_Resource.png
+
 
 ## Running Tests
 
