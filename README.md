@@ -128,7 +128,7 @@ mvn spring-boot:run
 - **Request Body**: Resource details
 ```json
 {
-    "resourceName": "John",
+    "resourceName": "Hemanth",
     "experience": 5,
     "skills": ["Java", "Spring", "React", "Docker"]
 }
