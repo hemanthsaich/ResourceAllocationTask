@@ -2,6 +2,10 @@
 
 A Spring Boot application for managing resource allocation based on skillsets and experience. The system allows searching for resources based on required skills and experience levels for projects.
 
+Name: Hemanth Sai Chinthalapudi
+Email: hemanthsai1566@gmail.com
+
+
 ## Features
 
 - Search resources by multiple skills
