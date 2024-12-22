@@ -105,8 +105,7 @@ mvn spring-boot:run
 ```
 - **Response**: Array of matching resources
 
-https://res.cloudinary.com/daafpg7r5/image/upload/v1734840349/search_by_skils.png
-
+![image](https://res.cloudinary.com/daafpg7r5/image/upload/v1734840349/search_by_skils.png)
 
 ### 2. Search Resources by Skills and Experience
 - **URL**: `/api/resources/search/experience`
@@ -119,7 +118,8 @@ https://res.cloudinary.com/daafpg7r5/image/upload/v1734840349/search_by_skils.pn
 ```
 - **Response**: Array of matching resources with experience filter
 
-https://res.cloudinary.com/daafpg7r5/image/upload/v1734840349/search_by_skills_and_experience.png
+![image](https://res.cloudinary.com/daafpg7r5/image/upload/v1734840349/search_by_skills_and_experience.png)
+
 
 
 ### 3. Create New Resource
@@ -133,7 +133,7 @@ https://res.cloudinary.com/daafpg7r5/image/upload/v1734840349/search_by_skills_a
     "skills": ["Java", "Spring", "React", "Docker"]
 }
 ```
-
+![image](https://res.cloudinary.com/daafpg7r5/image/upload/v1734840350/Create_New_Resource.png)
 
 - **Response**: Created resource details
 
@@ -161,7 +161,6 @@ https://res.cloudinary.com/daafpg7r5/image/upload/v1734840349/search_by_skills_a
        "skills": ["Java", "Spring", "React", "Docker"]
    }
    ```
-https://res.cloudinary.com/daafpg7r5/image/upload/v1734840350/Create_New_Resource.png
 
 
 ## Running Tests
