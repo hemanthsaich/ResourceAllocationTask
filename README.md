@@ -175,6 +175,9 @@ mvn spring-boot:run
 mvn test
 ```
 
+![image](https://res-console.cloudinary.com/daafpg7r5/media_explorer_thumbnails/e9e06e839c52d587ac98b9f3114b8873/detailed)
+
+
 ## Project Structure
 
 ```
