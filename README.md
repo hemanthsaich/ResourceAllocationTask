@@ -74,8 +74,8 @@ INSERT INTO resource_skills (resource_id, skill) VALUES
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/resource-allocation.git
-cd resource-allocation
+git clone https://github.com/hemanthsaich/ResourceAllocationTask.git
+cd ResourceAllocationTask
 ```
 
 2. Configure database connection in `src/main/resources/application.properties`:
